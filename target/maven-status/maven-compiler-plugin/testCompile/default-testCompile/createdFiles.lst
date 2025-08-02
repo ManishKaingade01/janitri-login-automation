@@ -1,0 +1,3 @@
+base\BaseTest.class
+pages\LoginPage.class
+tests\LoginTests.class

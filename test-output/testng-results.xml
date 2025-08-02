@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-02T10:02:01 IST" name="Default suite" finished-at="2025-08-02T10:03:00 IST" duration-ms="59923">
+    <groups>
+    </groups>
+    <test started-at="2025-08-02T10:02:01 IST" name="Default test" finished-at="2025-08-02T10:03:00 IST" duration-ms="59923">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:01 IST" name="setup" finished-at="2025-08-02T10:02:09 IST" duration-ms="8479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLoginShowsErrorMsg()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:09 IST" name="testInvalidLoginShowsErrorMsg" finished-at="2025-08-02T10:02:37 IST" duration-ms="28167" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped: Notification screen still blocking login.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped: Notification screen still blocking login.
+at pages.LoginPage.getErrorMessage(LoginPage.java:85)
+at tests.LoginTests.testInvalidLoginShowsErrorMsg(LoginTests.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginShowsErrorMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:37 IST" name="tearDown" finished-at="2025-08-02T10:02:38 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:38 IST" name="setup" finished-at="2025-08-02T10:02:40 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginButtonDisabledWhenFieldsEmpty()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:40 IST" name="testLoginButtonDisabledWhenFieldsEmpty" finished-at="2025-08-02T10:02:46 IST" duration-ms="5942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonDisabledWhenFieldsEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:46 IST" name="tearDown" finished-at="2025-08-02T10:02:47 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:47 IST" name="setup" finished-at="2025-08-02T10:02:54 IST" duration-ms="7609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordMaskedButton()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:02:54 IST" name="testPasswordMaskedButton" finished-at="2025-08-02T10:03:00 IST" duration-ms="5656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMaskedButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@206a70ef]" started-at="2025-08-02T10:03:00 IST" name="tearDown" finished-at="2025-08-02T10:03:00 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
